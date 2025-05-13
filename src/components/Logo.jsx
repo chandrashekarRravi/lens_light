@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Logo from '../assets/image.png'
+import image from '../assets/image.png'
 
 const Logo = () => {
     const [showMore, setShowMore] = useState(false);
@@ -7,7 +7,7 @@ const Logo = () => {
     return (
         <div className="flex flex-col items-center justify-center pt-8 ">
             <img
-                src={Logo}
+                src={image}
                 className="w-24 h-24 sm:w-32 sm:h-32 md:w-48 md:h-48 shadow-lg object-contain"
                 alt="Lense and Light Club Logo"
             />
